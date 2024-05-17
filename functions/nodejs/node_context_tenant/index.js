@@ -9,9 +9,16 @@
  *
  * @return 函数的返回数据
  */
-module.exports = async function (params, context, logger) {
-  // 日志功能
-   logger.info(`${new Date()} 函数开始执行`);
-
+  
+  module.exports = async function (params, context, logger) {
+    logger.info(`${new Date()} 函数开始执行`);
+      const tenant = context.tenant;
+      logger.info(
+        `tenant.id = ${tenant.id}\n` +
+        `tenant.name = ${tenant.name}\n` +
+        `tenant.type = ${tenant.type}\n` +
+        `tenant.namespace = ${tenant.namespace}\n` +
+        `tenant.domain = ${tenant.domain}\n`
+      );
+    }
   // 在这里补充业务代码
-}

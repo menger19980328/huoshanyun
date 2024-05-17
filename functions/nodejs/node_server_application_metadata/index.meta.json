@@ -1,0 +1,17 @@
+{
+  "apiID": "package_3ae3a7__c__function_aadghnrtq74la",
+  "apiName": "node_server_application_metadata",
+  "label": {
+    "zh_CN": "node-server-application.metadata（server-sdk）",
+    "en_US": null
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "isPublicAPI": false,
+  "frontendSDKInvokable": false,
+  "longTaskMode": false,
+  "input": [],
+  "output": []
+}

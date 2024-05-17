@@ -1,0 +1,17 @@
+{
+  "apiID": "package_3ae3a7__c__function_aadghnrtqw6ba",
+  "apiName": "go_server_application_Tenant",
+  "label": {
+    "zh_CN": "go-server-application-Tenant",
+    "en_US": null
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "isPublicAPI": false,
+  "frontendSDKInvokable": false,
+  "longTaskMode": false,
+  "input": [],
+  "output": []
+}

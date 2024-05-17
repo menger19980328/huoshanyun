@@ -1,0 +1,17 @@
+{
+  "apiID": "package_3ae3a7__c__function_aadghnrtqrwai",
+  "apiName": "admin_createdata",
+  "label": {
+    "zh_CN": "sdk权限校验-新增删除数据（p0case勿动）（调试前修改当前用户权限再运行即可）",
+    "en_US": null
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "isPublicAPI": false,
+  "frontendSDKInvokable": true,
+  "longTaskMode": false,
+  "input": [],
+  "output": []
+}

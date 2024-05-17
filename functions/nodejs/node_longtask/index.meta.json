@@ -1,0 +1,17 @@
+{
+  "apiID": "package_3ae3a7__c__function_aadgf3lvfeqdy",
+  "apiName": "node_longtask",
+  "label": {
+    "zh_CN": "node longtask（长任务函数）",
+    "en_US": null
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "isPublicAPI": false,
+  "frontendSDKInvokable": false,
+  "longTaskMode": true,
+  "input": [],
+  "output": []
+}
