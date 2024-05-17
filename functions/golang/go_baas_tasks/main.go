@@ -52,7 +52,7 @@ func Handler(ctx context.Context, params *Params) (*Result, error) {
 // 日志功能
 application.GetLogger(ctx).Infof("%s 函数开始执行, logid: %s", time.Now().Format("2006-01-02 15:04:05.999"), faas.Tool.GetLogID(ctx))
 
-taskID, err := baas.Tasks.CreateAsyncTask(ctx, "hjfunction", map[string]interface{}{"input": "测试异步参数"})
+taskID, err := baas.Tasks.CreateAsyncTask(ctx, "go_faas_function_invoke", map[string]interface{}{"input": "测试异步参数"})
 if err != nil {
 panic(err)
 }

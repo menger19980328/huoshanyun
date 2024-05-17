@@ -47,7 +47,7 @@ type Params struct{}
 type Result struct{}
 
 func Handler(ctx context.Context, params *Params) (*Result, error) {
-	res, err := application.Flow.Execute(ctx, "automation_3a991cf3c3e", &structs.ExecuteOptions{Params: map[string]interface{}{"variable_96vo1qk": true}})
+	res, err := application.Flow.Execute(ctx, "automation_091a4a75867", &structs.ExecuteOptions{Params: map[string]interface{}{"variable_96vo1qk": true}})
 	if err != nil {
 		application.GetLogger(ctx).Errorf("Execute failed: %+v", err)
 		return nil, err
