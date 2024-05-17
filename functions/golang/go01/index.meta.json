@@ -1,0 +1,16 @@
+{
+  "apiID": "package_3ae3a7__c__function_aadgi2sjljgbg",
+  "apiName": "go01",
+  "label": {
+    "zh_CN": "go页面创建部署",
+    "en_US": ""
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "longTaskMode": false,
+  "frontendSDKInvokable": false,
+  "input": [],
+  "output": []
+}
