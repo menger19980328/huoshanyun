@@ -32,7 +32,7 @@ logger.info(`删除一条记录完成`);
 
    logger.info(`${new Date()} 函数开始执行`);
    // 在 User 对象中创建一条记录
-const record = await application.data.object("object_4dffd36558c").create({
+const record1 = await application.data.object("object_4dffd36558c").create({
      "_name": new application.constants.type.Multilingual({"zh": "中文名称", "en": "English Name"}),
      "phone_36558cce488": new application.constants.type.Phone("18610595108"),
      "email_558cce48814": "test@bytedance.com"
@@ -40,7 +40,7 @@ const record = await application.data.object("object_4dffd36558c").create({
  logger.info(`创建完成`);
 
 
- const record2=await application.data.object("object_4dffd36558c").delete(record)
+ await application.data.object("object_4dffd36558c").delete(record1)
  logger.info(`删除完成`);
   // 在这里补充业务代码
 }

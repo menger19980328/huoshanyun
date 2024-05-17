@@ -21,7 +21,7 @@ text: await application.globalVar.getVar("globalParam_9337b525d15"),
 float: await application.globalVar.getVar("globalParam_efb2fb4cd09"),
 date: await application.globalVar.getVar("globalParam_b525d15c5bd"),
 record: await application.globalVar.getVar("globalParam_d15c5bd24c4"),
-recordList: await application.globalVar.getVar("globalParam_e6038bd82ad"),
+//recordList: await application.globalVar.getVar("globalParam_e6038bd82ad"),
 };
 logger.info(JSON.stringify(globalVarValues));
 }

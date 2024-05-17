@@ -39,7 +39,7 @@
 
 "@byted-apaas/server-sdk-node@1.1.15":
   version "1.1.15"
-  resolved "https://bnpm.byted.org/@byted-apaas/server-sdk-node/-/server-sdk-node-1.1.15.tgz#a2b2780cff29101e78f3bdc0fdb0dd717fc3c058"
+  resolved "https://registry.npmmirror.com/@byted-apaas/server-sdk-node/-/server-sdk-node-1.1.15.tgz#a2b2780cff29101e78f3bdc0fdb0dd717fc3c058"
   integrity sha512-xxMWeQdwJp1KH9ekusYth6ig8/cccwP6qKirkPr3Ge/boR09LgLPyzaEGimmgyhE1pD3uzumkqIv2QtFoJcQAg==
   dependencies:
     "@byted-apaas/server-common-node" "^2.0.4"
@@ -89,9 +89,9 @@
     "@types/node" "*"
 
 "@types/node@*":
-  version "20.12.12"
-  resolved "https://registry.npmmirror.com/@types/node/-/node-20.12.12.tgz#7cbecdf902085cec634fdb362172dfe12b8f2050"
-  integrity sha512-eWLDGF/FOSPtAvEqeRAQ4C8LSA7M1I7i0ky1I8U7kD1J5ITyW3AsRhQrKVoWf5pFKZ2kILsEGJhsI9r93PYnOw==
+  version "20.12.7"
+  resolved "https://registry.npmmirror.com/@types/node/-/node-20.12.7.tgz#04080362fa3dd6c5822061aa3124f5c152cff384"
+  integrity sha512-wq0cICSkRLVaf3UGLMGItu/PtdY7oaXaI/RVU+xliKVOtRna3PRY57ZDfztpDL0n11vfymMUnXv8QwYCO7L1wg==
   dependencies:
     undici-types "~5.26.4"
 
@@ -162,9 +162,9 @@ crypto-js@^4.1.1:
   integrity sha512-KALDyEYgpY+Rlob/iriUtjV6d5Eq+Y191A5g4UqLAi8CyGP9N1+FdVbkc1SxKc2r4YAYqG8JzO2KGL+AizD70Q==
 
 dayjs@^1.9.6:
-  version "1.11.11"
-  resolved "https://registry.npmmirror.com/dayjs/-/dayjs-1.11.11.tgz#dfe0e9d54c5f8b68ccf8ca5f72ac603e7e5ed59e"
-  integrity sha512-okzr3f11N6WuqYtZSvm+F776mB41wRZMhKP+hc34YdW+KmtYYK9iqvHSwo2k9FEH3fhGXvOPV6yz2IcSrfRUDg==
+  version "1.11.10"
+  resolved "https://registry.npmmirror.com/dayjs/-/dayjs-1.11.10.tgz#68acea85317a6e164457d6d6947564029a6a16a0"
+  integrity sha512-vjAczensTgRcqDERK0SR2XMwsF/tSvnvlv6VcF2GIhg6Sx4yOIt/irsr1RDJsKiIyBzJDpCoXiWWq28MqH2cnQ==
 
 decompress-response@^6.0.0:
   version "6.0.0"
