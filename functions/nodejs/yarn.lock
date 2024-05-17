@@ -24,7 +24,7 @@
     form-data "^3.0.0"
     mime "^3.0.0"
 
-"@byted-apaas/server-common-node@2.0.4", "@byted-apaas/server-common-node@^2.0.1", "@byted-apaas/server-common-node@^2.0.2":
+"@byted-apaas/server-common-node@2.0.4", "@byted-apaas/server-common-node@^2.0.1", "@byted-apaas/server-common-node@^2.0.2", "@byted-apaas/server-common-node@^2.0.4":
   version "2.0.4"
   resolved "https://registry.npmmirror.com/@byted-apaas/server-common-node/-/server-common-node-2.0.4.tgz#8774c008585fe1cc68ef06c0f96cbb96d5b957e9"
   integrity sha512-HYa7cezvg9gipGW/HVLn93ltC8zGS97dCHQGKmVUIU/u2B/dj9710ILTBu/MXOkuMFwD5mKfaXTit/4w8JrXOA==
@@ -37,12 +37,12 @@
     node-cache "^5.1.2"
     node-cls "^1.0.7"
 
-"@byted-apaas/server-sdk-node@1.1.14":
-  version "1.1.14"
-  resolved "https://registry.npmmirror.com/@byted-apaas/server-sdk-node/-/server-sdk-node-1.1.14.tgz#7afdd48237f8b33c6875ec11f34002b730661395"
-  integrity sha512-s96mcdp7T0FNVqqwf82jqRvz16NEh3ZlTMNbRK4CyU0LA59O+vA1NzGhKLhU8Vb57HnBQwGc21vL8ov5wVY3LQ==
+"@byted-apaas/server-sdk-node@1.1.15":
+  version "1.1.15"
+  resolved "https://bnpm.byted.org/@byted-apaas/server-sdk-node/-/server-sdk-node-1.1.15.tgz#a2b2780cff29101e78f3bdc0fdb0dd717fc3c058"
+  integrity sha512-xxMWeQdwJp1KH9ekusYth6ig8/cccwP6qKirkPr3Ge/boR09LgLPyzaEGimmgyhE1pD3uzumkqIv2QtFoJcQAg==
   dependencies:
-    "@byted-apaas/server-common-node" "^2.0.2"
+    "@byted-apaas/server-common-node" "^2.0.4"
     "@jorgeferrero/stream-to-buffer" "^2.0.6"
     dayjs "^1.9.6"
     form-data "^3.0.0"
