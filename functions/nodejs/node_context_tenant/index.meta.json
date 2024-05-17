@@ -1,8 +1,8 @@
 {
-  "apiID": "package_3ae3a7__c__function_aadgixlavp4ag",
-  "apiName": "node",
+  "apiID": "package_3ae3a7__c__function_aadghnrttjqds",
+  "apiName": "node_context_tenant",
   "label": {
-    "zh_CN": "新建函数",
+    "zh_CN": "node-context.tenant（server-sdk）",
     "en_US": ""
   },
   "description": {

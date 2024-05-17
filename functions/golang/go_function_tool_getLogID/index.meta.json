@@ -1,0 +1,32 @@
+{
+  "apiID": "package_3ae3a7__c__function_aadgf5anbhwgy",
+  "apiName": "go_function_tool_getLogID",
+  "label": {
+    "zh_CN": "go_function_tool_getLogID（faas-sdk）",
+    "en_US": null
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "isPublicAPI": false,
+  "frontendSDKInvokable": false,
+  "longTaskMode": false,
+  "input": [
+    {
+      "key": "Input",
+      "type": "Text",
+      "required": false,
+      "label": "输入",
+      "description": ""
+    }
+  ],
+  "output": [
+    {
+      "key": "Output",
+      "type": "Text",
+      "label": "输出",
+      "description": ""
+    }
+  ]
+}
