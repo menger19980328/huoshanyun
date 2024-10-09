@@ -16,13 +16,13 @@ module.exports = async function (params, context, logger) {
   // 日志功能
   logger.info(`${new Date()} 函数开始执行`);
 
-const globalVarValues = {
-text: await application.globalVar.getVar("globalParam_9337b525d15"),
-float: await application.globalVar.getVar("globalParam_efb2fb4cd09"),
-date: await application.globalVar.getVar("globalParam_b525d15c5bd"),
-record: await application.globalVar.getVar("globalParam_d15c5bd24c4"),
-//recordList: await application.globalVar.getVar("globalParam_e6038bd82ad"),
-};
-logger.info(JSON.stringify(globalVarValues));
+  const globalVarValues = {
+    text: await application.globalVar.getVar("globalParam_9337b525d15"),
+    float: await application.globalVar.getVar("globalParam_efb2fb4cd09"),
+    date: await application.globalVar.getVar("globalParam_b525d15c5bd"),
+    record: await application.globalVar.getVar("globalParam_d15c5bd24c4"),
+    //recordList: await application.globalVar.getVar("globalParam_e6038bd82ad"),
+  };
+  logger.info(JSON.stringify(globalVarValues));
 }
   // 在这里补充业务代码
