@@ -13,5 +13,7 @@ module.exports = async function (params, context, logger) {
   faas.tool.setLaneName("your lane name2");
   let envKey = utils.getEnvKey()
   logger.info(`envKey: ${envKey}`);
+
+  logger.info(context.flow.apiName)
   
 }
