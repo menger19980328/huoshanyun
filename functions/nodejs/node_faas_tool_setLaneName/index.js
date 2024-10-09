@@ -15,5 +15,7 @@ module.exports = async function (params, context, logger) {
   logger.info(`envKey: ${envKey}`);
 
   logger.info(context.flow.apiName)
+
+  logger.info(params.name)
   
 }
