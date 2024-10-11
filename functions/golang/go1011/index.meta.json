@@ -1,0 +1,16 @@
+{
+  "apiID": "package_3ae3a7__c__function_aadha43zqckcs",
+  "apiName": "go1011",
+  "label": {
+    "zh_CN": "go1011",
+    "en_US": ""
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "longTaskMode": true,
+  "frontendSDKInvokable": true,
+  "input": [],
+  "output": []
+}
