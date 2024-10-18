@@ -17,12 +17,13 @@ const record = await application.data.object("object_4d655938b3c").create({
 "text_938b3c01392": "绝绝子",
 "bigint_8b3c0139288":"18",
 "phone_3c01392889f": new application.constants.type.Phone("18610595108"),
-"email_01392889f54": "test@bytedance.com"
+"email_01392889f54": "test@bytedance.com",
+"_id":"333"
  })
 logger.info(`创建一条记录完成`);
 
  // 更新 object_4d655938b3c 的「email_01392889f54」字段
-await application.data.object("object_4d655938b3c").update(record, {"email_01392889f54":"test001@bytedance.com"})
+await application.data.object("object_4d655938b3c").update(record._id, {"email_01392889f54":"test001@bytedance.com"})
 logger.info(`更新邮箱字段完成`);
 
 // 删除 object_4d655938b3c 中的一条数据
