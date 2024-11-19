@@ -1,0 +1,17 @@
+{
+  "apiID": "package_3ae3a7__c__function_aadgf4eizjebs",
+  "apiName": "node_faas_tool_mockUserID",
+  "label": {
+    "zh_CN": "node faas tool mock User ID（faas-sdk）",
+    "en_US": "node faas tool mock User ID"
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "isPublicAPI": false,
+  "frontendSDKInvokable": false,
+  "longTaskMode": false,
+  "input": [],
+  "output": []
+}

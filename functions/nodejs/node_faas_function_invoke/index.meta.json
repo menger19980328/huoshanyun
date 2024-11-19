@@ -1,0 +1,34 @@
+{
+  "apiID": "package_3ae3a7__c__function_aadgf3madp4bs",
+  "apiName": "node_faas_function",
+  "label": {
+    "zh_CN": "node faas function（faas-sdk）",
+    "en_US": null
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "isPublicAPI": false,
+  "frontendSDKInvokable": false,
+  "longTaskMode": false,
+  "input": [
+    {
+      "key": "apiName",
+      "type": "Text",
+      "required": true,
+      "label": "DemoInputField",
+      "description": "函数的 apiName",
+      "example": ""
+    },
+    {
+      "key": "params",
+      "type": "Text",
+      "required": true,
+      "label": "DemoInputField",
+      "description": "触发函数",
+      "example": ""
+    }
+  ],
+  "output": []
+}

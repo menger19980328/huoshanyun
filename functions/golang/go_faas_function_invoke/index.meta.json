@@ -1,0 +1,34 @@
+{
+  "apiID": "package_3ae3a7__c__function_aadgf5aihrmcs",
+  "apiName": "go_faas_function_invoke",
+  "label": {
+    "zh_CN": "go faas function invoke（faas-sdk）",
+    "en_US": "go faas function invoke"
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "isPublicAPI": false,
+  "frontendSDKInvokable": false,
+  "longTaskMode": false,
+  "input": [
+    {
+      "key": "demo_input_field",
+      "type": "Text",
+      "required": false,
+      "label": "DemoInputField",
+      "description": "Custom Field",
+      "example": "Sample Text"
+    }
+  ],
+  "output": [
+    {
+      "key": "demo_output_field",
+      "type": "Text",
+      "label": "DemoOutputField",
+      "description": "Custom Field",
+      "example": "Sample Text"
+    }
+  ]
+}

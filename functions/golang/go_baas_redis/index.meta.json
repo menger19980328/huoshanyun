@@ -1,0 +1,17 @@
+{
+  "apiID": "package_3ae3a7__c__function_aadghnrtqw6aa",
+  "apiName": "go_baas_redis",
+  "label": {
+    "zh_CN": "go-baas-redis",
+    "en_US": null
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "isPublicAPI": false,
+  "frontendSDKInvokable": false,
+  "longTaskMode": false,
+  "input": [],
+  "output": []
+}

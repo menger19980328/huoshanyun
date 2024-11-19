@@ -1,0 +1,17 @@
+{
+  "apiID": "package_3ae3a7__c__function_aadgf4etxmues",
+  "apiName": "node_faas_tool_getLogID",
+  "label": {
+    "zh_CN": "node faas tool get Log ID（faas-sdk）(须配到流程里验证)",
+    "en_US": "node faas tool get Log ID"
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "isPublicAPI": false,
+  "frontendSDKInvokable": false,
+  "longTaskMode": false,
+  "input": [],
+  "output": []
+}

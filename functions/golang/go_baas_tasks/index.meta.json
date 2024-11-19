@@ -1,0 +1,17 @@
+{
+  "apiID": "package_3ae3a7__c__function_aadghnrtqv4du",
+  "apiName": "go_baas_tasks",
+  "label": {
+    "zh_CN": "go-baas-tasks",
+    "en_US": null
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "isPublicAPI": false,
+  "frontendSDKInvokable": false,
+  "longTaskMode": false,
+  "input": [],
+  "output": []
+}
