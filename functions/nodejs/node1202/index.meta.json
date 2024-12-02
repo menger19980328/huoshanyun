@@ -1,0 +1,16 @@
+{
+  "apiID": "package_3ae3a7__c__function_aadhjrwjxlkfu",
+  "apiName": "node1202",
+  "label": {
+    "zh_CN": "node1202",
+    "en_US": ""
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "longTaskMode": true,
+  "frontendSDKInvokable": false,
+  "input": [],
+  "output": []
+}
