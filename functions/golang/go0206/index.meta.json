@@ -1,0 +1,16 @@
+{
+  "apiID": "package_3ae3a7__c__function_aadhurca25ifs",
+  "apiName": "go0206",
+  "label": {
+    "zh_CN": "go0206",
+    "en_US": ""
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "longTaskMode": false,
+  "frontendSDKInvokable": false,
+  "input": [],
+  "output": []
+}

@@ -1,0 +1,16 @@
+{
+  "apiID": "package_3ae3a7__c__function_aadhuras23glg",
+  "apiName": "node0206",
+  "label": {
+    "zh_CN": "node0206",
+    "en_US": ""
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "longTaskMode": false,
+  "frontendSDKInvokable": false,
+  "input": [],
+  "output": []
+}
