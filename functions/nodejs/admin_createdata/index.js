@@ -11,7 +11,7 @@ const { utils } = require("@byted-apaas/server-common-node")
  */
 module.exports = async function (params, context, logger) {
   // 日志功能
-   logger.info(`${new Date()} 函数开始执行1`);
+   logger.info(`${new Date()} 函数开始执行11`);
    // 在 User 对象中创建一条记录
 const record = await application.data.object("object_4dffd36558c").create({
      "_name": new application.constants.type.Multilingual({"zh": "中文名称", "en": "English Name"}),

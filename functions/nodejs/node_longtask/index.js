@@ -12,7 +12,7 @@
 module.exports = async function (params, context, logger) {
   // 日志功能
 //111
-   logger.info(`${new Date()} 函数开始执行`);
+   logger.info(`${new Date()} 函数开始执行1`);
   for (let i = 0; i < 60 * 2; i++) {
     console.log(i);
     logger.info("第分钟",i)
